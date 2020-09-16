@@ -1,0 +1,40 @@
+.main {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 10em;
+    margin-left: 30px;
+}
+
+.main h1 {
+    max-width: 100%;
+    width: 13em;
+    color: rgb(8, 39, 30);
+    font-size: 45px;
+}
+
+.main p {
+    max-width: 100%;
+    width: 500px;
+    line-height:2;
+    font-style: italic;
+    color: rgb(8, 39, 30);
+}
+
+.main button {
+    margin: 30px 0px 10px 0px;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: rgb(24, 149, 233);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.main button:hover {
+    border: 1px solid rgb(24, 149, 233);
+    background-color: white;
+    color: black;
+    opacity: 0.7;
+    transition: all 200ms ease-in-out;
+}

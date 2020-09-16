@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    max-width: 100%;
+    margin: 30px;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+ul li {
+    display: inline-block;
+    
+}
+
+li {
+    display: block;
+    margin-right: 30px;
+    text-align: right;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: rgb(24, 149, 233);
+}
