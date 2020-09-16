@@ -4,6 +4,7 @@ import {NavLink} from 'react-router-dom';
 import img from "../src/images/main-page-images.jpg";
 
 function StartPage() {
+
     return (
         <>
                 <div className="navbar">
@@ -17,13 +18,14 @@ function StartPage() {
                     <li><NavLink to="/Login" style={{ textDecoration:'none' }}>Log in</NavLink></li>
                     </ul>
                 </div>
-
-                <div className="main">
+                    <div className="img">
+                    <div className="main">
                     <h1>E-Library <br /> BNI Corporate University</h1>
-
+                    
                     <p>Platform E-Library khusus para pegawai BNI46 dan para mahasiswa untuk melakukan riset pada BANK BNI...</p>
                     <NavLink to="/Home"><button><strong>START NOW</strong></button></NavLink>
-                </div>
+                    </div>
+                    </div>
         </>
     )
 }

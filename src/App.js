@@ -6,7 +6,7 @@ import About from './About';
 import Riset from './Riset';
 import Faq from './Faq';
 import Login from './Login';
-import './App';
+import './App.css';
 import { Switch, Route } from 'react-router-dom';
 
 function App() {
