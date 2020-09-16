@@ -1,7 +1,6 @@
 import React from 'react'
 import './styles/StartPage.css';
 import {NavLink} from 'react-router-dom';
-import img from "../src/images/main-page-images.jpg";
 
 function StartPage() {
 
