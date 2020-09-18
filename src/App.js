@@ -8,7 +8,8 @@ import Faq from './Faq';
 import Login from './Login';
 import NavBar from './NavBar';
 import './App.css';
-import { Switch, Route } from 'react-router-dom'; 
+import { Switch, Route } from 'react-router-dom';
+
 function App() {
   return (
     <>
