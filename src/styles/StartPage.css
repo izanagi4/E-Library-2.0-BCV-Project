@@ -9,41 +9,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar {
-    display: flex;
-    max-width: 100%;
-    margin: 30px;
-    align-items: center;
-}
-
-ul {
-    display: flex;
-    max-width: 100%;
-    justify-content: flex-end;
-    flex: 1;
-}
-
-ul li {
-    display: inline-block;
-    
-}
-
-li {
-    display: block;
-    margin-right: 30px;
-    text-align: right;
-}
-
-li a {
-    font-weight: 400;
-    text-decoration: none;
-    color: black;
-}
-
-li a:hover {
-    color: rgb(24, 149, 233);
-}
-
 .main {
     max-height: 100%;
     padding: 10em 0em 0em 0em;
@@ -53,6 +18,7 @@ li a:hover {
     background-size: 80em;
     background-position: 20em -8em;
     background-repeat: no-repeat; 
+    margin-left: 3em;
 }
 
 .main h1 {
