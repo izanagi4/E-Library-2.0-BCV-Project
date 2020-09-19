@@ -6,7 +6,7 @@
 }
 
 
-ul {
+.NavBar ul {
     display: flex;
     max-width: 100%;
     justify-content: flex-end;
@@ -14,23 +14,23 @@ ul {
     margin-bottom: 0px;
 }
 
-ul li {
+.NavBar ul li {
     display: inline-block;
     
 }
 
-li {
+.NavBar li {
     display: block;
     margin-right: 30px;
     text-align: right;
 }
 
-li a {
+.NavBar li a {
     text-decoration: none;
     color: #242424;
 }
 
-li a:hover {
+.NavBar li a:hover {
     color: rgb(24, 149, 233);
     text-decoration: none;
 }

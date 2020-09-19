@@ -5,16 +5,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("../images/bg-desktop.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Open Sans', sans-serif;
-    background-color: rgb(248, 248, 248);
 }
 
 .container-fluid {
     display: flex;
     margin-left: -2em;
+    margin-top: -4em;
 }
 
 .carousel {

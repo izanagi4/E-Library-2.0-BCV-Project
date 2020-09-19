@@ -7,6 +7,7 @@ import Riset from './Riset';
 import Faq from './Faq';
 import Login from './Login';
 import NavBar from './NavBar';
+import Footer from './Footer';
 import './App.css';
 import { Switch, Route } from 'react-router-dom';
 
@@ -24,6 +25,7 @@ function App() {
       <Route exact path="/faq" component={Faq} />
       <Route exact path="/login" component={Login} />
       </Switch>
+      <Footer />
     </>
   );
 }
