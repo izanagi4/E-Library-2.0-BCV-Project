@@ -28,14 +28,15 @@ function Footer() {
         </div>
         <div className="about">
           <ul>
-            <li>
-              About us
+            <li><NavLink to="/#" style={{ textDecoration:'none' }}>
+              Contact us</NavLink>
+            </li>
+            <li><NavLink to="/#" style={{ textDecoration:'none' }}>
+              Terms</NavLink>
             </li>
             <li>
-              What do we do
-            </li>
-            <li>
-              Contact
+            <NavLink to="/#" style={{ textDecoration:'none' }}>
+              Privacy</NavLink>
             </li>
           </ul>
         </div>

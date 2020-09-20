@@ -4,7 +4,6 @@ footer {
     max-width: 100%;
     justify-content: center;
     align-items: center;
-
     padding: 50px;
     color: white;
     background-color: rgb(24, 149, 233);
@@ -19,6 +18,7 @@ footer ul {
 }
 
 footer li {
+    color: white;
     list-style: none;
     margin-bottom: 20px;
 }
@@ -55,4 +55,13 @@ footer .circle {
 footer .circle:hover {
     color: rgb(24, 149, 233);
     background-color: white;
+}
+
+footer li a {
+    color: white;
+}
+
+footer li a:hover {
+    opacity: 0.5;
+    color:white;
 }
