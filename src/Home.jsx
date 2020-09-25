@@ -7,10 +7,13 @@ import carousel3 from './images/carousel-3.jpg';
 import catalogue from './images/catalogue-img.jpg';
 import riset from './images/riset-img.jpg';
 import card from './images/card-img-1.jpg';
+import Navbar from './NavBar';
+import Footer from './Footer';
 
 function Home() {
-    return (
-        <div className="home">
+  return (
+    <div className="home">
+    <Navbar />
             <div className="container-fluid pl-0 pr-0">
     <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
   <div className="carousel-inner">
@@ -53,6 +56,7 @@ function Home() {
             <h4>Our News!</h4></NavLink>
         </div>
       </div>
+      <Footer />
         </div>
     )
 }
