@@ -73,7 +73,6 @@ form {
     flex-direction: column;
     margin-left: 50px;
     transition: 500ms;
-
 }
 
 form input {
@@ -84,6 +83,11 @@ form input {
     margin-bottom: 20px;
     outline: none;
     padding-bottom: 5px;
+    color: white;
+}
+
+form input::placeholder {
+    opacity: 0.5;
 }
 
 .ig-bot-section {

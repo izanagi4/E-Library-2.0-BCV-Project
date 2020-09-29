@@ -7,7 +7,7 @@ import carousel3 from './images/carousel-3.jpg';
 import catalogue from './images/catalogue-img.jpg';
 import riset from './images/riset-img.jpg';
 import card from './images/card-img-1.jpg';
-import Navbar from './NavBar';
+import Navbar from './components/Navbar/Navbar';
 import Footer from './Footer';
 
 function Home() {

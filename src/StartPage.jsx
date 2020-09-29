@@ -1,8 +1,8 @@
 import React from 'react'
 import './styles/StartPage.css';
 import {NavLink} from 'react-router-dom';
-import Navbar from './NavBar';
 import Footer from './Footer';
+import Navbar from './components/Navbar/Navbar';
 
 function StartPage() {
 
