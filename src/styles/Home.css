@@ -9,16 +9,16 @@ body {
 
 .container-fluid {
     display: flex;
-    margin-left: -2em;
-    margin-top: -4em;
+    justify-content: center;
 }
 
 .carousel {
+    justify-content: center;
     margin: 50px;
 }
 
 .carousel-inner {
-    max-width: 55em;
+    max-width: 50em;
     border-radius: 15px;
 }
 
