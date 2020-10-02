@@ -9,7 +9,7 @@ function Footer() {
     return (
         <div>
         <footer>
-        <h1><strong>BCV</strong></h1>
+        <h1><strong>BCV<i className="fab fa-react"></i></strong></h1>
         <div className="information">
           <ul>
             <li>

@@ -32,12 +32,13 @@ body {
 
 .container-img img {
     position: relative;
-    width: 25.5em;
+    width: 23.5em;
     align-items: center;
     justify-content: center;
     margin-bottom: 5px;
     top: -1.3em;
     margin-left: -2.5em;
+    border-radius: 10px;
 }
 
 .footer {
